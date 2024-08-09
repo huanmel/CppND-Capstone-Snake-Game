@@ -1,8 +1,36 @@
-# CPPND: Capstone Snake Game Example
+# CPPND: Capstone Snake Game Example. Snake VIM
 
 This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
 
 <img src="snake_game.gif"/>
+
+## how to control
+There's analog of vim menu to get access to quit, write and load game progress. At first during game you need to press ":" button to get access to command line.
+It would looks like below. After you need to write one of the command.
+<img src="assets\game_menu.png"/>
+
+### menu command
+Exit Commands
+
+:q Quit (a warning is printed if a modified file has not been saved)
+
+### File Manipulation Commands
+
+:w Write workspace to default file (save progress to the same file)
+
+:w file_name Write workspace to named file (save progress to new file_name)
+
+:r read game progress from the default file
+
+:r file_name Read contents of a file to the workspace (load progress)
+
+### Move snake commands
+Button below could be used during game to control snake direction movement. Its analog of VIM cursor control. 
+
+	h - move cursor left
+	j - move cursor down
+	k - move cursor up
+	l - move cursor right
 
 The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
 
@@ -33,6 +61,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 	https://github.com/aminosbh/sdl2-cmake-modules
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
+
 
 
 ## CC Attribution-ShareAlike 4.0 International

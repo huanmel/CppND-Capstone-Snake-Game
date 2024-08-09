@@ -61,7 +61,7 @@ Renderer::Renderer(const std::size_t screen_width,
     std::cerr << "Error creating texture: " << SDL_GetError() << std::endl;
   }
 
-  font = TTF_OpenFont(FONT_PATH, 72);
+  font = TTF_OpenFont(FONT_PATH, 52);
   if (!font)
   {
     std::cerr << "Error loading font: " << TTF_GetError() << std::endl;
