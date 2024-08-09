@@ -61,7 +61,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 	also this resource already used 
     https://github.com/aminosbh/sdl2-cmake-modules
 4. Compile: `cmake .. && make`
-5. Run it: `./SnakeGame`.
+5. Run it: `./MySnakeSDL`.
 
 
 
