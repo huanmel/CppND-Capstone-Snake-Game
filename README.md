@@ -58,7 +58,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 3. install additional libraries:
 	* sudo apt install libsdl2-image-dev
 	* sudo apt-get install libsdl2-ttf-dev
-	also this resource already used 
+	* also this resource already used 
     https://github.com/aminosbh/sdl2-cmake-modules
 4. Compile: `cmake .. && make`
 5. Run it: `./MySnakeSDL`.
