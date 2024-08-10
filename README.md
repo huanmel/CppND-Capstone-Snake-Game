@@ -2,7 +2,7 @@
 
 This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
 
-<img src="snake_game.gif"/>
+<img src="game-capture.gif"/>
 
 ## how to control
 There's analog of vim menu to get access to quit, write and load game progress. At first during game you need to press ":" button to get access to command line.
@@ -79,7 +79,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- | ------ |
 | The project demonstrates an understanding of C++ functions and control structures.             | A variety of control structures are added to the project.<br><br>The project code is clearly organized into functions.   | Code is separated into classed, some helper functions added like to write, load or translate snakes direction to string   | DONE   |
 | The project reads data from a file and process the data, or the program writes data to a file. | The project reads data from an external file or writes data to a file as part of the necessary operation of the program. | add read write the progress to the file                                                                                   | DONE   |
-| The project accepts user input and processes the input.                                        | In addition to controlling the snake, the game can also receive new types of input from the player.                      | vim mode <br>:w :s - save game<br>:q - quit<br>:l - load<br>:r - reload<br>:s - screenshot<br>hjkl - to control the snake | DONE   |
+| The project accepts user input and processes the input.                                        | In addition to controlling the snake, the game can also receive new types of input from the player.                      | vim mode <br>:w :s - save game<br>:q - quit<br>:l - load<br>::w - write to file, r- load from file<br>:s - screenshot<br>hjkl - to control the snake | DONE   |
 | The project uses data structures and immutable variables.                                      | The project uses arrays or vectors **and** uses constant variables.                                                      | Body and food are done as vector                                                                                          | DONE   |
 
 ## Object Oriented Programming
